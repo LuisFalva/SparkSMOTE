@@ -2,7 +2,6 @@
 @author: LuisFalva
 """
 
-
 import random
 import numpy as np
 
