@@ -1,6 +1,3 @@
-"""
-@author: lvargas@datiobd.com
-"""
 import random
 import numpy as np
 
@@ -24,9 +21,6 @@ class SparkSmote:
 
         if not isinstance(target_name, str):
             raise ValueError("target name must be specified")
-
-        if df.select(target_name).distinct().count() != 2:
-            raise ValueError("target field must have only 2 distinct classes")
 
         if not isinstance(df, DataFrame):
             raise ValueError("spark dataframe is required")
