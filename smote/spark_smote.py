@@ -7,7 +7,7 @@ from pyspark.ml.linalg import DenseVector
 from pyspark.ml.feature import VectorAssembler
 
 """
-This code is inspired on the original solution of Angkirat Singh Sandhu to a better performance and simplified solution.
+This class is based on the original code of Angkirat Singh Sandhu derived to a better performance and simplified solution on spark.
 """
 
 class SparkSmote:
