@@ -8,6 +8,7 @@ from pyspark.ml.feature import VectorAssembler
 
 """
 This class is based on the original code of Angkirat Singh Sandhu derived to a better performance and generalized solution over spark.
+link original solution: https://github.com/Angkirat/Smote-for-Spark/blob/master/PythonCode.py
 """
 
 class SparkSmote:
