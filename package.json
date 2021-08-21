@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "hoek": "^6.1.3"
+  }
+}
